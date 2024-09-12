@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional profile showcasing skills, projects, certifications, and more.">
+    <title>Professional Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            scroll-behavior: smooth;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1.5em;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #ff6347;
+        }
+        header, section, footer {
+            padding: 2em;
+            margin: 1.5em auto;
+            background-color: #fff;
+            max-width: 800px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 0.7em 0;
+            padding-left: 20px;
+            position: relative;
+        }
+        ul li:before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #ff6347;
+            font-size: 1.5em;
+            line-height: 0.8em;
+        }
+        video {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 2em;
+        }
+        footer a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        footer a:hover {
+            color: #ff6347;
+        }
+        .social-media-feed {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 1.5em;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        .social-media-feed a {
+            display: block;
+            margin: 0.5em 0;
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .social-media-feed a:hover {
+            color: #ff6347;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#short-courses">Short Courses</a></li>
+            <li><a href="#degrees">Degrees</a></li>
+            <li><a href="#side-projects">Side Projects</a></li>
+            <li><a href="#video-content">Video Content</a></li>
+            <li><a href="#social-media">Social Media</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <h1>Welcome to My Professional Profile</h1>
+        <p>Select your language: 
+            <a href="?lang=en">English</a> |
+            <a href="?lang=ar">Arabic</a> |
+            <a href="?lang=ur">Urdu</a> |
+            <a href="?lang=fr">French</a>
+        </p>
+    </header>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <h3>Soft Skills</h3>
+        <ul>
+            <li>Communication</li>
+            <li>Teamwork</li>
+            <li>Problem-solving</li>
+        </ul>
+        <h3>Hard Skills</h3>
+        <ul>
+            <li>Programming Languages: HTML, CSS, JavaScript</li>
+            <li>Frameworks: React, Angular</li>
+            <li>Tools: Git, Docker</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Portfolio Website - <time datetime="2023-01">January 2023</time></li>
+            <li>eCommerce Platform - <time datetime="2022-06">June 2022</time></li>
+            <li>Blog Application - <time datetime="2021-11">November 2021</time></li>
+        </ul>
+    </section>
+
+    <section id="short-courses">
+        <h2>Short Courses</h2>
+        <ul>
+            <li>Responsive Web Design - <time datetime="2023-05">May 2023</time></li>
+            <li>Advanced JavaScript - <time datetime="2022-09">September 2022</time></li>
+        </ul>
+    </section>
+
+    <section id="degrees">
+        <h2>Degrees Program</h2>
+        <ul>
+            <li>Fazaia Inter College - <time datetime="2019-05">May 2019</time></li>
+            <li>Bachelor's Degree in ITU - <time datetime="2022-05">May 2022 - Expected 2026</time></li>
+        </ul>
+    </section>
+
+    <section id="side-projects">
+        <h2>Side Projects/Hackathons/Certifications</h2>
+        <ul>
+            <li>Hackathon- <time datetime="2023-07">July 2023</time></li>
+            <li>Web Development Certification - <time datetime="2022-10">October 2022</time></li>
+        </ul>
+    </section>
+
+    <section id="video">
+        <h2>Introduction Video</h2>
+        <video controls width="300" height="225">
+            <source src="Video/video.mp4" type="video/mp4">
+           
+        </video>
+    </section>
+    
+    
+
+    <section id="social-media">
+        <h2>Social Media Feed</h2>
+        <div class="social-media-feed">
+            <a href="https://twitter.com/" target="_blank">Twitter</a>
+            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:email@example.com">email@example.com</a></p>
+        <p>Phone: +123456789</p>
+    </footer>
+</body>
+</html>
